@@ -157,11 +157,16 @@ Complete Exercise 11 in the space below:
 
 const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 const odds = [];
-for (let num of nums) {
-odds = nums.push()
-}
 
+nums.forEach((num, index) => {
 
+   /* found this line of code on Over Stack website.
+ It uses array.filter to find odd numbers in the array.*/
+   const oddNum = nums.filter((num) => num % 2 === 1); 
+   
+       odds.push(oddNum);
+
+})
 
 
 console.log('Exercise 11 result:', odds);
@@ -186,6 +191,15 @@ Exercise 12: FizzBuzz with arrays
 
 Complete Exercise 12 in the space below:
 */
+const fizz = [];
+const buzz = [];
+const fizzbuzz = [];
+f
+
+for (let idx = 0; idx < nums.length; idx++) {
+    
+   
+}
 
 
 
